@@ -1,5 +1,9 @@
 number_of_strings = int(input())
-string_content = ""
-for string in range(number_of_strings):
+for current_string in range(number_of_strings):
     string_content = input()
-    if string_content
+    if "_" in string_content or \
+            "," in string_content or \
+            "." in string_content:
+        print(f"{string_content} is not pure!")
+    else:
+        print(f"{string_content} is pure.")
