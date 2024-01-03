@@ -1,7 +1,8 @@
-current_year = int(input())
-new_year = current_year + 1
+year = int(input())
+year += 1
 while True:
-    if len(set(str(new_year))) == len(str(current_year)):
-        print(new_year)
+    year_string = str(year)
+    if len(set(year_string)) == len(year_string):
+        print(year)
         break
-    new_year += 1
+    year += 1
