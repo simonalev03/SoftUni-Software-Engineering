@@ -18,8 +18,6 @@ while True:
             total_coffee += 2
         else:
             total_coffee += 1
-    else:
-        continue
 if total_coffee > 5:
     print("You need extra sleep")
 else:
