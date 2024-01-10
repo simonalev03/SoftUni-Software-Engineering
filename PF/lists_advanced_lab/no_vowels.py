@@ -1,2 +1,4 @@
-my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+text = input()
+text_with_no_vowels = [char for char in text if char.lower() not in ['a', 'o', 'u', 'e', 'i']]
+print("".join(text_with_no_vowels))
 
