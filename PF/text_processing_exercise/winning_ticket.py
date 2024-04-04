@@ -18,7 +18,3 @@ winning_symbols = ['@', '#', '$', '^']
 
 for current_ticket in tickets:
     print(check_ticket(current_ticket))
-
-
-
-
